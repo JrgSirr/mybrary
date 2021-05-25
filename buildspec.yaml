@@ -3,6 +3,7 @@ version: 0.2
 phases:
   install:
     commands:
+      #New Comment
       - apt-get update
       - apt-get install -y fonts-liberation libasound2 libnspr4 libnss3 libx11-xcb1 xdg-utils libxssl libappindicator1
       - wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
